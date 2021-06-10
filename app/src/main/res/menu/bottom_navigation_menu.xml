@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/rentFragment"
+        android:title="@string/rent"
+        android:icon="@drawable/ic_group23"/>
+    <item android:id="@+id/bookingFragment"
+        android:title="@string/bookings"
+        android:icon="@drawable/ic_group23"/>
+    <item android:id="@+id/referFragment"
+        android:title="@string/refer"
+        android:icon="@drawable/ic_group23"/>
+    <item android:id="@+id/accountFragment"
+        android:title="@string/account"
+        android:icon="@drawable/ic_group23"/>
+
+</menu>

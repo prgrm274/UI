@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/rentFragment">
+
+    <fragment
+        android:id="@+id/rentFragment"
+        android:name="com.programmer2704.ui.RentFragment"
+        android:label="fragment_rent"
+        tools:layout="@layout/fragment_rent" />
+    <fragment
+        android:id="@+id/bookingFragment"
+        android:name="com.programmer2704.ui.BookingFragment"
+        android:label="fragment_booking"
+        tools:layout="@layout/fragment_booking" />
+    <fragment
+        android:id="@+id/referFragment"
+        android:name="com.programmer2704.ui.ReferFragment"
+        android:label="fragment_refer"
+        tools:layout="@layout/fragment_refer" />
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.programmer2704.ui.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+</navigation>
